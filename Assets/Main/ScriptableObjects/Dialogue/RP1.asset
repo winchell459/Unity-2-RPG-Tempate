@@ -9,8 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3b407c6e92e7441e9bf7e9b27cff38c9, type: 3}
+  m_Script: {fileID: 11500000, guid: 97f8e06d0c2564c34914d86204dc1343, type: 3}
   m_Name: RP1
   m_EditorClassIdentifier: 
-  Text: Yes
-  nextBranch: {fileID: 11400000, guid: cb6bd99d2221c46d1ae94f6c05db2dad, type: 2}
+  Text: 
+  nextBranch: {fileID: 0}

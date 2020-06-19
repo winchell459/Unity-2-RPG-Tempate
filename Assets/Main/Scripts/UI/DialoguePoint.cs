@@ -12,6 +12,10 @@ public class DialoguePoint : MonoBehaviour
     private bool inDialogueZone;
     private bool dialoguePlaying;
 
+
+    //Day 1 added ------------------------------------------------------------------
+    public DialogueBranch branch;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -47,7 +51,9 @@ public class DialoguePoint : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        dialogueMenu.RecieveDialogueBranch(); // Add start branch here
+        //day 1 edited ----------------------------------------------------------------
+        dialogueMenu.RecieveDialogueBranch(branch); // Add start branch here
+
         popup.gameObject.SetActive(true);
         popup.text = "Press [E] to " + info;
         inDialogueZone = true;

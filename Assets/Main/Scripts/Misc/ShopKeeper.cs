@@ -23,7 +23,7 @@ public class ShopKeeper : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.R) && inShopZone)
         {
             int totalAmount = pm.SellAll(type);
-            popupText.GetComponent<TextMeshProUGUI>().text = $"Sold all {type.ToString()} items and made {totalAmount}.";
+            popupText.GetComponent<TextMeshProUGUI>().text = $"Sold all {type} items and made {totalAmount}.";
         }
     }
 
@@ -31,7 +31,7 @@ public class ShopKeeper : MonoBehaviour
     {
         popupText.SetActive(true);
         inShopZone = true;
-        popupText.GetComponent<TextMeshProUGUI>().text = $"Press [R] to sell all {type.ToString()} items.";
+        popupText.GetComponent<TextMeshProUGUI>().text = $"Press [R] to sell all {type} items.";
     }
 
     private void OnTriggerExit2D(Collider2D collision)
