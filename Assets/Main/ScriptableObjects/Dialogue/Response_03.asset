@@ -9,10 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cb82a0a7d31724035abc4a7a2eb83c44, type: 3}
-  m_Name: New3
+  m_Script: {fileID: 11500000, guid: 97f8e06d0c2564c34914d86204dc1343, type: 3}
+  m_Name: Response_03
   m_EditorClassIdentifier: 
-  dialogueID: 3
-  DialogueLines:
-  - This is a test 3
-  ResponseOption: []
+  Text: Thank You!
+  nextBranch: {fileID: 11400000, guid: 08c99d43c1f2ac740aa199e8d5d4844f, type: 2}

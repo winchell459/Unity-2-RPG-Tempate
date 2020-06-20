@@ -9,10 +9,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cb82a0a7d31724035abc4a7a2eb83c44, type: 3}
-  m_Name: New2
+  m_Script: {fileID: 11500000, guid: f703af9168a154f5bbb06d876f803057, type: 3}
+  m_Name: Branch_02
   m_EditorClassIdentifier: 
-  dialogueID: 2
+  dialogueID: Head South
   DialogueLines:
-  - This is a test 2
-  ResponseOption: []
+  - Directions you say?
+  - Head South
+  ResponseOption:
+  - {fileID: 11400000, guid: 363b8618bd82de1489abfc97b48f7a0e, type: 2}
