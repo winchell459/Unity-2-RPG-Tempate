@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 97f8e06d0c2564c34914d86204dc1343, type: 3}
   m_Name: RP1
   m_EditorClassIdentifier: 
-  Text: 
-  nextBranch: {fileID: 0}
+  Text: Text 1
+  nextBranch: {fileID: 11400000, guid: cb6bd99d2221c46d1ae94f6c05db2dad, type: 2}

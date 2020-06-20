@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 97f8e06d0c2564c34914d86204dc1343, type: 3}
-  m_Name: RP2
+  m_Name: Response_Chara_07_01
   m_EditorClassIdentifier: 
-  Text: tesxt 2
-  nextBranch: {fileID: 11400000, guid: 71e1f8c2cce404fd3a4d601d73c3f11e, type: 2}
+  Text: Directions
+  nextBranch: {fileID: 11400000, guid: 69dcad101ed4ac544973832c4d5f4adc, type: 2}

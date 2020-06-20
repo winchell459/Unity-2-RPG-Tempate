@@ -10,9 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f703af9168a154f5bbb06d876f803057, type: 3}
-  m_Name: New2
+  m_Name: Branch_Chara_07_03
   m_EditorClassIdentifier: 
-  dialogueID: 
+  dialogueID: Quest
   DialogueLines:
-  - wrong
-  ResponseOption: []
+  - A Quest huh?
+  - I'm sorry but those have not been programmed yet.
+  ResponseOption:
+  - {fileID: 11400000, guid: bae873e82de158d4585450c645003bc0, type: 2}
+  - {fileID: 11400000, guid: 63413c464ec1ea8478048aa8f0f8aa9f, type: 2}

@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 97f8e06d0c2564c34914d86204dc1343, type: 3}
   m_Name: RP3
   m_EditorClassIdentifier: 
-  Text: 
-  nextBranch: {fileID: 0}
+  Text: text 3
+  nextBranch: {fileID: 11400000, guid: 4c367b21ade0847a5909cbc5c09cbb3f, type: 2}

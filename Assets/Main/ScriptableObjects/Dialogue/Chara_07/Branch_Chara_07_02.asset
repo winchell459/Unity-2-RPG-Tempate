@@ -10,9 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f703af9168a154f5bbb06d876f803057, type: 3}
-  m_Name: New2
+  m_Name: Branch_Chara_07_02
   m_EditorClassIdentifier: 
-  dialogueID: 
+  dialogueID: Directions
   DialogueLines:
-  - wrong
-  ResponseOption: []
+  - Directions to the nearest mine you say?
+  - Just head south from here!
+  ResponseOption:
+  - {fileID: 11400000, guid: 5243324a59765e34a8d076163015e2cc, type: 2}
