@@ -8,7 +8,8 @@ public class InventoryUI : MonoBehaviour
     public GameObject inventoryContent;
     public PlayerManager pm;
 
-    void Start()
+    //day 2 changed -----------------------------------------------------------
+    public void Setup()
     {
         pm = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerManager>();
         int count = 0;
@@ -21,6 +22,9 @@ public class InventoryUI : MonoBehaviour
 
     public void UpdateAllSquares()
     {
+        //day 2 added -----------------------------------------------------------
+        Setup();
+
         foreach (InventorySlot square in inventoryContent.GetComponentsInChildren<InventorySlot>())
         {
             square.UpdateSelf(pm);

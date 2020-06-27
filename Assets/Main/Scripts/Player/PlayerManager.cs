@@ -21,6 +21,8 @@ public class PlayerManager : MonoBehaviour
     public LootTable lt;
     public List<inventorySlotProxy> invetory = new List<inventorySlotProxy>();
 
+    
+
     // Start is called before the first frame update
     void Start()
     {
@@ -29,6 +31,7 @@ public class PlayerManager : MonoBehaviour
         {
             invetory.Add(new inventorySlotProxy { itemIndex = i, itemAmount = 0 });
         }
+        
         playerNameText.text = PlayerPrefs.GetString(PrefNames.playerName) + "Info |>";
         UpdateUI();
     }
