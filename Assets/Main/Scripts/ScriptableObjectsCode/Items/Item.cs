@@ -4,7 +4,7 @@ using UnityEngine;
 
 public abstract class Item : ScriptableObject
 {
-    public enum ItemType { Ore, Artifact, ArtWork, Misc};
+    public enum ItemType { Ore, Artifact, ArtWork, Misc, Cat};
 
     public string itemName;
     public int price;
