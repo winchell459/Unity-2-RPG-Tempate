@@ -92,6 +92,7 @@ public class GameMenuManager : MonoBehaviour
 
     public void SaveGame()
     {
-        // To Implement
+        //day 3 added --------------------------------------------------------------------------------
+        GameObject.Find("GameData").GetComponent<SaveManager>().SaveGame();
     }
 }

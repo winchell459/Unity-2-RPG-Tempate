@@ -20,4 +20,4 @@ MonoBehaviour:
   - Well, how can I help you?
   ResponseOption:
   - {fileID: 11400000, guid: 894ce04e1a6d66545975726c39e6589c, type: 2}
-  - {fileID: 11400000, guid: 6274a9e52dda5454088d6442bb5e0a28, type: 2}
+  - {fileID: 11400000, guid: 95d6cd06c31f6ff4790587dc8ced048e, type: 2}

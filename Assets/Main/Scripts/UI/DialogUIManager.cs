@@ -52,7 +52,16 @@ public class DialogUIManager : MonoBehaviour
 
     public void NextBranch(int branchSelect)
     {
-        RecieveDialogueBranch(branch.ResponseOption[branchSelect].nextBranch);
+        DialogueBranch nextBranch = branch.ResponseOption[branchSelect].nextBranch;
+        if (branch.ResponseOption[branchSelect].isInventoryResponse)
+        {
+            if (!((InventoryResponse)branch.ResponseOption[branchSelect]).CheckInventory())
+            {
+                nextBranch = ((InventoryResponse)branch.ResponseOption[branchSelect]).FailedCheckBranch;
+            }
+        }
+
+        RecieveDialogueBranch(nextBranch);
         ActiveDialogue();
         NextDialogue();
     }
