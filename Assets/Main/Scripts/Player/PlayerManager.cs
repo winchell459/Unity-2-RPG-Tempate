@@ -33,7 +33,8 @@ public class PlayerManager : MonoBehaviour
         UpdateUI();
     }
 
-    void UpdateUI()
+    //day 3 changed added public --------------------------------------------------------------------------------
+    public void UpdateUI()
     {
         goldText.text = "Gold: " + gold.ToString();
         expText.text = "Exp: " + experience.ToString();

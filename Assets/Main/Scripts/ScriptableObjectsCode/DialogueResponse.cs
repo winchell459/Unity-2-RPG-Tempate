@@ -7,4 +7,5 @@ public class DialogueResponse : ScriptableObject
 {
     public string Text;
     public DialogueBranch nextBranch;
+    public bool isInventoryResponse;
 }
